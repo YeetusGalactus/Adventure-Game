@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="BossCheck" src="project://database/Assets/BossCheck.uxml?fileID=9197481963319205126&amp;guid=35b3d3cc4271def44854cb62068f0fda&amp;type=3#BossCheck"/>
+    <ui:Template name="EndScreen" src="project://database/Assets/EndScreen.uxml?fileID=9197481963319205126&amp;guid=4b4fbc0a10e81e142a7b26098cd96dd3&amp;type=3#EndScreen"/>
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=19973b4473ae5ee43820a0678cf2f4bc&amp;type=3#NPCDialogue"/>
+    <ui:Template name="RobotCounter" src="project://database/Assets/RobotCounter.uxml?fileID=9197481963319205126&amp;guid=324c0966d434e5c42b8172b7597d12eb&amp;type=3#RobotCounter"/>
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ducko/UI/UIHealthFrame.png?fileID=21300000&amp;guid=b47cdbd2062c5e64ba5a0bf3f6b045b1&amp;type=3#UIHealthFrame&quot;); width: 504px; height: 213px; -unity-background-scale-mode: scale-to-fit; top: 10px; left: -15px;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 76px; width: 256px; top: 63px; left: 210px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=292bb6b60652e5541aa6fd8507b5087e&amp;type=3#UIHealthBar&quot;);"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/CharacterPortraitMarshal.png?fileID=21300000&amp;guid=6c5810b436edb3e40917fefe4281bb5f&amp;type=3#CharacterPortraitMarshal&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 187px; top: 0; width: 220px; left: 14px;"/>
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; top: 68%; right: 10%; left: 10%; bottom: 16px;"/>
+    <ui:Instance template="EndScreen" name="EndScreen" style="position: absolute; top: 0; right: 0; left: 0; bottom: 0;"/>
+    <ui:Instance template="RobotCounter" name="RobotCounter" style="top: -130px; left: 1575px; width: 284px; height: 92px;"/>
+    <ui:Instance template="BossCheck" name="BossCheck" style="left: 1608px; top: -100px; width: 251px;">
+        <AttributeOverrides element-name="Toggle" value="false"/>
+    </ui:Instance>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/UICounterBar.png?fileID=21300000&amp;guid=4bb9e5210d4bc484ab335c62e1e0ffd3&amp;type=3#UICounterBar&quot;);">
+        <ui:Toggle label="BOSS" enabled="true" name="BossCheckToggle" value="false" text="" style="top: 0%; left: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 25px; padding-right: 25px; padding-bottom: 25px; padding-left: 25px; font-size: 40px; color: rgb(58, 70, 77); -unity-text-align: upper-center;"/>
+    </ui:VisualElement>
+</ui:UXML>

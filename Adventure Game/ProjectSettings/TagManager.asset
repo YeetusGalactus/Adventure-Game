@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Character
+  - Projectiles
+  - NPC
+  - TileMap
+  - BossProjectile
   - 
   - 
   - 
